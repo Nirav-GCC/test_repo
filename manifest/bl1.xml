@@ -10,13 +10,13 @@
 <copyfile dest="setupsdk" src="setupsdk"/>
 </project>
 <project remote="xilinx" revision="master" name="yocto-manifests" path="sources/manifest"/>
-<project remote="xilinx" revision="master" name="meta-xilinx" path="sources/meta-xilinx" sync-s="true"/>
+<project remote="xilinx" revision="1d98f8981e3157aa265ca141a0fc9e6e2640394f" name="meta-xilinx" path="sources/meta-xilinx" sync-s="true"/>
 <project remote="xilinx" revision="22e3db9936728c22f9d1bc0c1fc97f45b547ec7b" name="meta-xilinx-tools" path="sources/meta-xilinx-tools"/>
 <project remote="xilinx" revision="bb27e6aef4dafd501bb5d72c95facd178c92dc48" name="meta-petalinux" path="sources/meta-petalinux"/>
 <project remote="xilinx" revision="1b9481badd2daf386965c6ceb44a608d2bcdd0e4" name="meta-system-controller" path="sources/meta-system-controller"/>
  
   <project remote="yocto" revision="3dc0aaa3978e4e3109b1f3cd4ed22234076971d9" name="poky" path="sources/poky"/>
 <project remote="yocto" revision="f9946faf520ac304fa5c6f2acdfbe459e122c0eb" name="meta-security" path="sources/meta-security"/>
-<project remote="yocto" revision="master" name="meta-arm" path="sources/meta-arm"/>
+<project remote="yocto" revision="cc4399ad9a12061e2c74d2dde340b616fbc8687e" name="meta-arm" path="sources/meta-arm"/>
 <project remote="oe" revision="65bac5505f306c693244186c769cef18aa436f60" name="meta-openembedded" path="sources/meta-openembedded"/>
 </manifest>
